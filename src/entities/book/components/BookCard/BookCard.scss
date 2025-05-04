@@ -1,0 +1,20 @@
+$block: '.bookcard';
+
+#{$block} {
+	width: fit-content;
+	overflow: hidden;
+	display: flex;
+	flex-flow: column;
+
+	&__descriptionContainer {
+		width: 100%;
+		display: flex;
+		flex-flow: column;
+		gap: 8px;
+		padding: 10px;
+	}
+
+	&__title {
+		text-align: center;
+	}
+}

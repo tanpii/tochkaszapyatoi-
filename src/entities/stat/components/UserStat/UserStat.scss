@@ -1,0 +1,16 @@
+$block: '.userStat';
+
+#{$block} {
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    &__header {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+}

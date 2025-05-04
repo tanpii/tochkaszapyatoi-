@@ -1,0 +1,29 @@
+$block: '.achievementCard';
+
+#{$block} {
+    padding: 10px;
+    width: 370px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+	&__imgContainer {
+		flex-shrink: 0;
+		position: relative;
+		overflow: hidden;
+		width: 100px; 
+		height: 100px;
+		border-radius: 50%;
+	}
+	
+	&__img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+
+	&__info {
+		display: flex;
+        flex-direction: column;
+	}
+}

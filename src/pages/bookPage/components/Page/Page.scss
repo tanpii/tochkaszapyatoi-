@@ -1,0 +1,9 @@
+$block: '.bookPage';
+
+#{$block} {
+    max-width: 100vw;
+    overflow-x: hidden;
+    display: flex;
+    flex-flow: column;
+    gap: 80px;
+}

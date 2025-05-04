@@ -1,0 +1,13 @@
+$block: '.signInForm';
+
+#{$block} {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 8px;
+
+    * {
+        width: 100%;
+    }
+}

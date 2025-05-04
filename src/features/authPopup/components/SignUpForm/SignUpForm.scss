@@ -1,0 +1,17 @@
+$block: '.signUpForm';
+
+#{$block} {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    gap: 8px;
+
+    &__input,
+    &__button {
+        width: 100%;
+    }
+}
+
+.g-text-input__additional-content {
+    width: fit-content;
+}
