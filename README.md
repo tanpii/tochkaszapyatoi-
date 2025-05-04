@@ -1,40 +1,10 @@
-# gravity-ui-vite-example
+Пользовательский клиентский сервис был спроектирован с учетом возможного роста функционала в будущем, что обусловило выбор архитектуры. В качестве архитектурного решения была использована архитектура FSD, которая позволяет четко разграничить функциональные блоки приложения и обеспечивает гибкость при добавлении новых возможностей.
+<img width="318" alt="image" src="https://github.com/user-attachments/assets/1c5cac72-c62c-41d3-bec9-9c0ca0545419" />
 
-Vite template with: typescript, sass and Gravity UI.
 
-## ⚗️ Technologies list
-
-- [Gravity UI](https://gravity-ui.com/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Sass](https://sass-lang.com/)
-- [ESlint](https://eslint.org/) & [Prettier](https://prettier.io/)
-
-# 🚀 Start using it
-
-To use this template for your app you can run:
+Для локального запуска в режиме разработки:
 
 ```sh
-npx degit gravity-ui/gravity-ui-vite-example#main my-project
-cd my-project
-
 npm install
 npm run dev
 ```
-
-or
-
-```sh
-yarn degit gravity-ui-vite-example#main my-project
-cd my-project
-
-npm install
-npm run dev
-```
-
-# 📖 Learn More
-
-This package includes scripts and configuration used by [Vite](https://vitejs.dev/).\
-Please refer to its documentation:
-
-- [Getting Started](https://vitejs.dev/guide/) – How to create a new app.
-- [User Guide](https://vitejs.dev/) – How to develop apps bootstrapped with Vite.
